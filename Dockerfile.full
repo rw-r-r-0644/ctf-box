@@ -1,0 +1,14 @@
+ARG BASE_IMAGE=crypto
+FROM ${BASE_IMAGE}
+
+COPY scripts/install-pwn.sh /tmp/scripts/install-pwn.sh
+RUN /tmp/scripts/install-pwn.sh
+
+COPY scripts/install-rev.sh /tmp/scripts/install-rev.sh
+RUN /tmp/scripts/install-rev.sh
+
+COPY scripts/install-web.sh /tmp/scripts/install-web.sh
+RUN /tmp/scripts/install-web.sh
+
+COPY scripts/install-osint.sh /tmp/scripts/install-osint.sh
+RUN /tmp/scripts/install-osint.sh

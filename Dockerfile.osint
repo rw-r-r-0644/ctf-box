@@ -1,0 +1,5 @@
+ARG BASE_IMAGE=base
+FROM ${BASE_IMAGE}
+
+COPY scripts/install-osint.sh /tmp/scripts/install-osint.sh
+RUN /tmp/scripts/install-osint.sh

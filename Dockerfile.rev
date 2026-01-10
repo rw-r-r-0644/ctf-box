@@ -1,0 +1,5 @@
+ARG BASE_IMAGE=base
+FROM ${BASE_IMAGE}
+
+COPY scripts/install-rev.sh /tmp/scripts/install-rev.sh
+RUN /tmp/scripts/install-rev.sh

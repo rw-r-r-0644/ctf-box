@@ -1,0 +1,5 @@
+ARG BASE_IMAGE=base
+FROM ${BASE_IMAGE}
+
+COPY scripts/install-crypto.sh /tmp/scripts/install-crypto.sh
+RUN /tmp/scripts/install-crypto.sh
