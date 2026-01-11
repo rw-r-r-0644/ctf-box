@@ -10,7 +10,7 @@ pacman -S --noconfirm --needed radare2 rizin jdk-openjdk ghidra r2ghidra jadx py
 sudo -u user pip install angr lief frida-tools z3-solver
 
 # aur tools
-sudo -u user yay -S --noconfirm --needed android-apktool
+sudo -u user yay -S --noconfirm --needed android-apktool-bin
 
 # cleanup
 echo "cleaning"
