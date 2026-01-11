@@ -7,7 +7,7 @@ echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 pacman -Syu --noconfirm
 pacman -S --noconfirm --needed base-devel git sudo catatonit docker wget curl vim nano tmux openssh gdb python-pip cmake python-setuptools rust \
-    python-build python-installer python-setuptools-rust python-wheel \
+    python-build python-installer python-setuptools-rust python-wheel npm go uv \
     jq strace ltrace socat openbsd-netcat nasm patchelf binwalk perl-image-exiftool upx unrar \
     llvm clang lld 7zip unzip bind iputils net-tools python-pwntools ipython
 
