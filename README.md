@@ -68,7 +68,4 @@ docker run -it --rm ghcr.io/rw-r-r-0644/ctf-box:full
 mount stuff to `/etc/entrypoint.d/` to run it at start.
 
 ---
-last build: N/A
-
----
 Last build: 20260112
