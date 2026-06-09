@@ -45,4 +45,7 @@ sudo -u user yay -S --noconfirm --needed python2
 # cleanup
 echo "cleaning"
 pacman -Scc --noconfirm
-rm -rf /var/cache/pacman/pkg/*
+rm -rf /var/cache/pacman/pkg/* \
+       /home/user/.cache \
+       /root/.cache \
+       /tmp/*
