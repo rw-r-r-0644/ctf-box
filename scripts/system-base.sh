@@ -10,7 +10,7 @@ pacman -S --noconfirm --needed base-devel git sudo catatonit docker wget curl vi
     python-build python-installer python-setuptools-rust python-wheel npm go uv \
     jq strace ltrace socat openbsd-netcat nasm patchelf binwalk perl-image-exiftool upx unrar \
     llvm clang lld 7zip unzip bind iputils net-tools python-pwntools ipython \
-    lib32-glibc lib32-gcc-libs
+    lsof poppler lib32-glibc lib32-gcc-libs
 
 # user setup
 echo "setting up user"
