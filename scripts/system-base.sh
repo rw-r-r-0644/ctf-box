@@ -39,6 +39,9 @@ sudo -u user makepkg -si --noconfirm
 cd /
 rm -rf /tmp/yay-bin
 
+# install python2
+sudo -u user yay -S --noconfirm --needed python2
+
 # cleanup
 echo "cleaning"
 pacman -Scc --noconfirm
